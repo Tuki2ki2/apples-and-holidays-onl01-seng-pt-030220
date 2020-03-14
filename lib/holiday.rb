@@ -21,12 +21,13 @@ def second_supply_for_fourth_of_july(holiday_hash)
   holiday_hash.each do |season, holidays|
   if season ==:summer
   holidays.each do |celebration|
-    celebration.each do |fireworks, bbq|
-      puts "#{bbq}"
+    celebration.map do |fireworks, bbq|
+      bbq
     end
   end
   end
   end
+
   # return the second element in the 4th of July array
 end
 
