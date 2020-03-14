@@ -17,17 +17,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
   #     :memorial_day => ["BBQ"]
   #   }
   # }
-
-  holiday_hash.each do |season, holidays|
-  if season ==:summer
-  holidays.each do |celebration|
-    celebration.map do |fireworks, bbq|
-      puts "#{bbq}"
-    end
-  end
-  end
-  end
-
+holiday_hash[:summer][:fourth_of_july][1]
   # return the second element in the 4th of July array
 end
 
