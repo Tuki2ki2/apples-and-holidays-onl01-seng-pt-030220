@@ -27,8 +27,6 @@ def second_supply_for_fourth_of_july(holiday_hash)
   end
   end
   end
-  end
-end
   # return the second element in the 4th of July array
 end
 
