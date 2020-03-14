@@ -63,8 +63,9 @@ holiday_hash.each do |season, holiday|
     new_array << celebration
   end
 end
-new_array.flatten
 end
+new_array.flatten
+
 end
 
 
